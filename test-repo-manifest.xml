@@ -13,8 +13,8 @@
 		<branch name="master" orig_name="srcdata/gbp-test-native/master" revision="1b89d1d93044b12e4adc102f7c30feaabc41ba58"/>
 	</project>
 	<project name="gbp-test2">
-		<branch name="master" orig_name="srcdata/gbp-test2/master" revision="cd2763432f4ad93b29c6f22aee7f623552156a81"/>
-		<branch name="master-orphan" orig_name="srcdata/gbp-test2/master-orphan" revision="33c84e86148c3707d2880f439529074296f03d29"/>
+		<branch name="master" orig_name="srcdata/gbp-test2/master" revision="9d9a1e4efc5c1a9ba48c7de7bb2f3158a29e40d8"/>
+		<branch name="master-orphan" orig_name="srcdata/gbp-test2/master-orphan" revision="97d5c7e811c7b4160142606d1553172ca4567f21"/>
 		<branch name="upstream" orig_name="srcdata/gbp-test2/upstream" revision="6dccee0ab7689e5ae446d39535138ea39a88e70c"/>
 		<branch name="pristine_tar" orig_name="srcdata/gbp-test2/pristine_tar" revision="75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f"/>
 	</project>
