@@ -1,0 +1,56 @@
+From: Markus Lehtonen <markus.lehtonen@linux.intel.com>
+Date: Tue, 15 Jul 2014 13:22:47 +0300
+Subject: [PATCH] pristine-tar data for gbp-test2-2.0.tar.gz
+
+---
+ gbp-test2-2.0.tar.gz.delta | Bin 0 -> 1302 bytes
+ gbp-test2-2.0.tar.gz.id    |   1 +
+ 2 files changed, 1 insertion(+)
+ create mode 100644 gbp-test2-2.0.tar.gz.delta
+ create mode 100644 gbp-test2-2.0.tar.gz.id
+
+diff --git a/gbp-test2-2.0.tar.gz.delta b/gbp-test2-2.0.tar.gz.delta
+new file mode 100644
+index 0000000000000000000000000000000000000000..94f3aed61c8e4d15c7ba44ca7df329d00facc63f
+GIT binary patch
+literal 1302
+zcmV+x1?l=9iwFSs0L4=P1MQi6Y*SSn$Il%Dwr*iH0kSy)3xqIvtmnSl#ceP*UI8)z
+zqoStXwU@1~T}#`|Z3rump&~FbF^eLP1QT%hh!Z!3@Q4O=3XzvUm~%${KqMP7H4V)5
+zdRkZ*z3ob7Q?l&$N!xpFf4`o`J?DGBIk#E5BB^S=ESY7eD@)IDobF|(<Z#GN6g@CO
+z;JCn%5PZZm%OILz1)9N_6+}e7;8_7>R7J55VX1JrB`4|1|E(u@a6<$ZXV}~po18;)
+znCEDND2Q3KK_Dj#)@w*q8Zc@KjxyMPf(@MJVUG-W5TdVkHU0EYi~Jpl(D&{KSYU9l
+z{#k+OKPDpT)4xq}uBx!q43J0ekOR~+MD;)EjRfRHCzhcRotN5|Y`|!fwC#wd99=lO
+z^yhU~C)Olw{jI6M(RAwM3rBW-Q@Vfsj>V_G>Uqz-p>DU?m{*#6_|wDJFaPpWd-k#O
+zD^3c!1KEiS^>eScoViw?-#B@D9n+-Ee`ort^o>gw97<Z9*3tH{*z9WPzIf$td)K1O
+z?ZOUunQ_6ag|n`{{ejb<Yj4PJO=`I~rt3&=^^Mw&w6#-SxxB{Mtvk@2Gr8N9>sYQ+
+z>gd9^<|dw*=Sy$Pu{HFp>-aLw`K!L<UFF2CJxiYL`bYV`vN`SczDb=MeNQ*OubB2I
+z`(}|!_V(&3@|3fwxAQj5eC}WyS9Z?2q<GqQH<S{u<<_N9kAIukYi!)?t6%5a-TbG;
+zyY-l|y0<p<cO_x-^KYI{{HsS<d#k9WIq{3>RryMK%j>>+&)r0CZEdg7GUb|*+MPCM
+zCv!|mVGsRK@R_D^+m)V<rxLC!Po7rJjnC~odei6KrOfcopRLS0-j;X&92~E%9_c$U
+z;~FZ8{rqRC{NG*ekfYniAp9S*BKUtS2<89xJUo>D-xme{AL2w`?P?<VKgL{;{ux1F
+z!T)0c89XR;7^C)on^bODDZAX!Yhw`pF9;m?e=G>S|2L2mnl*&k|M!c6{||AZuXZ&N
+z{hy^(&;Mu){vQh#OJ(v(i&fSvEu2%ZxKLxRu-U4!T%{o2;ep!!D@n;>FOOmygYbWz
+zW5NGpLFoNI<M(ip4zvI77Y*V6ebI+KGT=dozS`A9-v6ug&k8*Fe=J}?r^6bx|C?p2
+zTZ(EMgYbWvgXjM-A+-Nv{|=uP!}x!{DER*nC;Dnv6T$y!7W1nA|1j+TW5U#D3RVz7
+zPYs-;prqiqQ#Lte$t{zMR4iGocBiG}ZqXrC8B45oQZ$wZ{39^Ug8#`anMfXUj3{6-
+znPjSYnnxvl7uspJyZvvT$uQY%Ho4rLBbZGlS;kVaDCi9`FUcGym{|kQ@-(ZLCDtJ6
+z^|FXf8eLHD{7s5vN#WooX>v<Kd~lPxJ6#OQWq6US#W1<Ns%nNT&oJqvD;%TB7Z^dE
+zkC0~sLL>DvU))l*_oGkt*G)({9lz$_VNVeimz?R4+@{hDv*eZ@tN8Fx&1)CNKJoP*
+zV_KW=mPJS7C@LjrRz~~&y_qd**3bTY+>efi##cQ>2o)mq2&G+y&}gdcQG`+{?Q%-1
+zMJSolPCzK0d{V7(EfhjrAkzPpi4a8!2#t^MQ;I?+gho*>O+;v1=&X_cEKkCnwDj<m
+zQJ!Q^d>~hAiqvPyGuA@{MpfOncmV(a0000000000000000000000000000000ATp=
+MA6fZ-?f_5#06lu0WdHyG
+
+literal 0
+HcmV?d00001
+
+diff --git a/gbp-test2-2.0.tar.gz.id b/gbp-test2-2.0.tar.gz.id
+new file mode 100644
+index 0000000..340feea
+--- /dev/null
++++ b/gbp-test2-2.0.tar.gz.id
+@@ -0,0 +1 @@
++afdd4586454b4648d29a606ebf6be9c52708332f
+-- 
+2.1.4
+

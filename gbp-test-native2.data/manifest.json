@@ -1,0 +1,48 @@
+{
+    "commits": {
+        "3da6930adaaef1cf7c67c97244d72a4aaef13f00": {
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1377528551 +0300", 
+            "sha1": "3da6930adaaef1cf7c67c97244d72a4aaef13f00", 
+            "patchfile": "Add-packaging-files.patch", 
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352378031 +0200", 
+            "tree": "e5f3bbd020b2beae3bfde712e51b8a65f1748b26", 
+            "parents": [
+                "489308b880d5f722b7d9b9b2e65c3e856f60c641"
+            ], 
+            "message": "Add packaging files\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
+        }, 
+        "489308b880d5f722b7d9b9b2e65c3e856f60c641": {
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1377528551 +0300", 
+            "sha1": "489308b880d5f722b7d9b9b2e65c3e856f60c641", 
+            "patchfile": "Add-gbp.conf.patch", 
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352396991 +0200", 
+            "tree": "cbd0f889baa0d487d34f2318efb418bbfdbbf682", 
+            "parents": [
+                "0579e0753b78476ad822c54b6ea07e2e80c0cdd2"
+            ], 
+            "message": "Add gbp.conf\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
+        }, 
+        "0579e0753b78476ad822c54b6ea07e2e80c0cdd2": {
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272349 +0200", 
+            "sha1": "0579e0753b78476ad822c54b6ea07e2e80c0cdd2", 
+            "patchfile": "Repository-initialization.patch", 
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272349 +0200", 
+            "tree": "4b825dc642cb6eb9a060e54bf8d69288fbee4904", 
+            "message": "Repository initialization\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
+        }
+    }, 
+    "refs": {
+        "refs/tags/srcdata/gbp-test-native2/release/2.0-0": "d65c4acb5a586d19a433358b3e3ec94211edbff2", 
+        "refs/heads/srcdata/gbp-test-native2/master": "3da6930adaaef1cf7c67c97244d72a4aaef13f00"
+    }, 
+    "HEAD": "ref: refs/heads/srcdata/gbp-test-native2/master\n", 
+    "tags": {
+        "d65c4acb5a586d19a433358b3e3ec94211edbff2": {
+            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1377528598 +0300", 
+            "message": "Test-Distro release 2.0-0", 
+            "tag": "srcdata/gbp-test-native2/release/2.0-0", 
+            "type": "commit", 
+            "object": "3da6930adaaef1cf7c67c97244d72a4aaef13f00"
+        }
+    }
+}

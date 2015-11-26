@@ -1,0 +1,26 @@
+From: Markus Lehtonen <markus.lehtonen@linux.intel.com>
+Date: Thu, 8 Nov 2012 19:20:17 +0200
+Subject: [PATCH] Add gbp.conf
+
+Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
+---
+ .gbp.conf | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 .gbp.conf
+
+diff --git a/.gbp.conf b/.gbp.conf
+new file mode 100644
+index 0000000..985a6c3
+--- /dev/null
++++ b/.gbp.conf
+@@ -0,0 +1,7 @@
++[DEFAULT]
++vendor = Test-Distro
++packaging-branch = srcdata/gbp-test/master
++packaging-tag = srcdata/gbp-test/release/%(version)s
++upstream-branch = srcdata/gbp-test/upstream
++upstream-tag = srcdata/gbp-test/upstream/%(upstreamversion)s
++
+-- 
+2.1.4
+
