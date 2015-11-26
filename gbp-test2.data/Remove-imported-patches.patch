@@ -15,15 +15,15 @@ Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
  delete mode 100644 packaging/my3.patch
 
 diff --git a/.gbp.conf b/.gbp.conf
-index 885f9bb..4af2c49 100644
+index 6c8e847..52a1267 100644
 --- a/.gbp.conf
 +++ b/.gbp.conf
-@@ -5,6 +5,7 @@ packaging-tag = srcdata/gbp-test2/release/%(version)s
- upstream-branch = srcdata/gbp-test2/upstream
- upstream-tag = srcdata/gbp-test2/upstream/%(upstreamversion)s
+@@ -6,6 +6,7 @@ upstream-branch = upstream
+ upstream-tag = upstream/%(upstreamversion)s
+ packaging-tag-msg = %(vendor)s release %(version)s
  packaging-dir = packaging
 +patch-export = True
- patch-export-ignore-path = ^(packaging/.*|\.gbp.conf)
+ patch-ignore-path = ^(packaging/.*|\.gbp.conf)
  spec-file = packaging/gbp-test2.spec
  
 diff --git a/packaging/gbp-test2.spec b/packaging/gbp-test2.spec

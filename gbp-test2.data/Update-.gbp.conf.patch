@@ -8,19 +8,19 @@ Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/.gbp.conf b/.gbp.conf
-index 885f9bb..c611421 100644
+index 6c8e847..e76aa24 100644
 --- a/.gbp.conf
 +++ b/.gbp.conf
 @@ -1,7 +1,7 @@
  [DEFAULT]
  vendor = Test-Distro
--packaging-branch = srcdata/gbp-test2/master
--packaging-tag = srcdata/gbp-test2/release/%(version)s
-+packaging-branch = srcdata/gbp-test2/master-orphan
-+packaging-tag = srcdata/gbp-test2/release-orphan/%(version)s
- upstream-branch = srcdata/gbp-test2/upstream
- upstream-tag = srcdata/gbp-test2/upstream/%(upstreamversion)s
- packaging-dir = packaging
+-packaging-branch = master
+-packaging-tag = release/%(version)s
++packaging-branch = master-orphan
++packaging-tag = release-orphan/%(version)s
+ upstream-branch = upstream
+ upstream-tag = upstream/%(upstreamversion)s
+ packaging-tag-msg = %(vendor)s release %(version)s
 -- 
 2.1.4
 

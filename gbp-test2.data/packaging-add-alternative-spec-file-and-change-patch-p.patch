@@ -16,13 +16,13 @@ Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
  create mode 100644 packaging/gbp-test2-alt.spec
 
 diff --git a/.gbp.conf b/.gbp.conf
-index 601d792..885f9bb 100644
+index 3d5f92d..6c8e847 100644
 --- a/.gbp.conf
 +++ b/.gbp.conf
-@@ -6,4 +6,5 @@ upstream-branch = srcdata/gbp-test2/upstream
- upstream-tag = srcdata/gbp-test2/upstream/%(upstreamversion)s
+@@ -7,4 +7,5 @@ upstream-tag = upstream/%(upstreamversion)s
+ packaging-tag-msg = %(vendor)s release %(version)s
  packaging-dir = packaging
- patch-export-ignore-path = ^(packaging/.*|\.gbp.conf)
+ patch-ignore-path = ^(packaging/.*|\.gbp.conf)
 +spec-file = packaging/gbp-test2.spec
  
 diff --git a/packaging/gbp-test2-alt.spec b/packaging/gbp-test2-alt.spec

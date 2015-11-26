@@ -4,26 +4,26 @@ Subject: [PATCH] Create a forked version.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
 ---
- .gbp.conf     | 5 ++---
+ .gbp.conf     | 4 ++--
  gbp-test.spec | 2 +-
  my3.patch     | 7 -------
- 3 files changed, 3 insertions(+), 11 deletions(-)
+ 3 files changed, 3 insertions(+), 10 deletions(-)
  delete mode 100644 my3.patch
 
 diff --git a/.gbp.conf b/.gbp.conf
-index 985a6c3..3ec3795 100644
+index 598b658..1f3671f 100644
 --- a/.gbp.conf
 +++ b/.gbp.conf
-@@ -1,7 +1,6 @@
+@@ -1,7 +1,7 @@
  [DEFAULT]
  vendor = Test-Distro
--packaging-branch = srcdata/gbp-test/master
--packaging-tag = srcdata/gbp-test/release/%(version)s
-+packaging-branch = srcdata/gbp-test/fork
-+packaging-tag = srcdata/gbp-test/fork/release/%(version)s
- upstream-branch = srcdata/gbp-test/upstream
- upstream-tag = srcdata/gbp-test/upstream/%(upstreamversion)s
--
+-packaging-branch = master
+-packaging-tag = release/%(version)s
++packaging-branch = fork
++packaging-tag = fork/release/%(version)s
+ upstream-branch = upstream
+ upstream-tag = upstream/%(upstreamversion)s
+ packaging-tag-msg = %(vendor)s release %(version)s
 diff --git a/gbp-test.spec b/gbp-test.spec
 index c46a734..4759934 100644
 --- a/gbp-test.spec

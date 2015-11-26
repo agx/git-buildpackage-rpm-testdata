@@ -8,13 +8,13 @@ Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
  1 file changed, 1 insertion(+)
 
 diff --git a/.gbp.conf b/.gbp.conf
-index 3ec3795..30e8489 100644
+index 1f3671f..d2302db 100644
 --- a/.gbp.conf
 +++ b/.gbp.conf
-@@ -4,3 +4,4 @@ packaging-branch = srcdata/gbp-test/fork
- packaging-tag = srcdata/gbp-test/fork/release/%(version)s
- upstream-branch = srcdata/gbp-test/upstream
- upstream-tag = srcdata/gbp-test/upstream/%(upstreamversion)s
+@@ -5,3 +5,4 @@ packaging-tag = fork/release/%(version)s
+ upstream-branch = upstream
+ upstream-tag = upstream/%(upstreamversion)s
+ packaging-tag-msg = %(vendor)s release %(version)s
 +postbuild = for _r in $GBP_BUILD_DIR/SRPMS/*rpm; do _b=`basename $_r`; _n=`echo $_b | sed s"/src.rpm/other.src.rpm/"`; mv $_r `dirname $_r`/$_n; done
 -- 
 2.1.4

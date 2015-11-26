@@ -10,15 +10,15 @@ Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
 
 diff --git a/.gbp.conf b/.gbp.conf
 new file mode 100644
-index 0000000..195c85e
+index 0000000..13aa70c
 --- /dev/null
 +++ b/.gbp.conf
 @@ -0,0 +1,5 @@
 +[DEFAULT]
 +vendor = Test-Distro
-+packaging-branch = srcdata/gbp-test-native/master
-+packaging-tag = srcdata/gbp-test-native/release/%(version)s
-+
++packaging-branch = master
++packaging-tag = release/%(version)s
++packaging-tag-msg = %(vendor)s release %(version)s
 -- 
 2.1.4
 
