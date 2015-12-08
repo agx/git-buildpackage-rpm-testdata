@@ -269,10 +269,10 @@ def commit_tree(commit):
                 'GIT_AUTHOR_EMAIL': email,
                 'GIT_AUTHOR_DATE': date})
     git_opts = []
+    git_opts.append(commit['tree'])
     if 'parents' in commit:
         for parent in commit['parents']:
             git_opts += ['-p', parent]
-    git_opts.append(commit['tree'])
     return git_cmd('commit-tree', git_opts, True, commit['message'] + '\n',
                    env)[0]
 
