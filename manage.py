@@ -444,8 +444,8 @@ def export_repo(repodir, datadir):
                             True)
         series = defaultdict(int)
         for sha1 in revisions:
-            fn_base = git_cmd('show', ['--format=format:%f', '--no-patch',
-                              sha1], True)[0][:54]
+            fn_base = git_cmd('show', ['--format=format:%f', '-s', sha1],
+                              True)[0][:54]
             # In case of overlapping filenames, add a numerical suffix
             series[fn_base] += 1
             if series[fn_base] > 1:
