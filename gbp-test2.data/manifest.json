@@ -1,163 +1,163 @@
 {
+    "HEAD": "ref: refs/heads/master\n", 
     "commits": {
-        "9ff4f5f6853622a95489d2d575c63eceedc203f8": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551036 +0200", 
-            "sha1": "9ff4f5f6853622a95489d2d575c63eceedc203f8", 
-            "patchfile": "My-addition.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352807746 +0200", 
-            "tree": "472db0daae817c14f1cb74608e1d234758301da0", 
-            "parents": [
-                "189b0a152a6f1405e021c2988755ce2f5d89c998"
-            ], 
-            "message": "My addition\n\nImport my2.patch to the git tree.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
         "0579e0753b78476ad822c54b6ea07e2e80c0cdd2": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272349 +0200", 
-            "sha1": "0579e0753b78476ad822c54b6ea07e2e80c0cdd2", 
-            "patchfile": "Repository-initialization.patch", 
             "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272349 +0200", 
-            "tree": "4b825dc642cb6eb9a060e54bf8d69288fbee4904", 
-            "message": "Repository initialization\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "a93779ad111470b1619f2ceb7a31dd10d6ad6a4f": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551387 +0200", 
-            "sha1": "a93779ad111470b1619f2ceb7a31dd10d6ad6a4f", 
-            "patchfile": "Update-.gbp.conf.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1386843313 +0200", 
-            "tree": "e92ab121d622ee866dffd560ce2dcd561223719b", 
-            "parents": [
-                "189b0a152a6f1405e021c2988755ce2f5d89c998"
-            ], 
-            "message": "Update .gbp.conf\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "6dccee0ab7689e5ae446d39535138ea39a88e70c": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806279 +0200", 
-            "sha1": "6dccee0ab7689e5ae446d39535138ea39a88e70c", 
-            "patchfile": "Add-dummy-Makefile.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272405 +0200", 
-            "tree": "afdd4586454b4648d29a606ebf6be9c52708332f", 
-            "parents": [
-                "dc4481d39005968f1f2673d760af69b411eccc33"
-            ], 
-            "message": "Add dummy Makefile\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "db72a4efae2b72b56f7723df844d7a506e549ce1": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551036 +0200", 
-            "sha1": "db72a4efae2b72b56f7723df844d7a506e549ce1", 
-            "patchfile": "packaging-reflect-the-corrected-patch-number-handling.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1357897260 +0200", 
-            "tree": "cc668ba4e00ae7308e6a9f1b2225a820e50f618f", 
-            "parents": [
-                "80d0f75635f6ac35f080736236836aac1e596845"
-            ], 
-            "message": "packaging: reflect the corrected patch number handling\n\nFix spec files as GBP now treats 'Patch:' as patch number -1, instead of\n0.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "dc4481d39005968f1f2673d760af69b411eccc33": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806277 +0200", 
-            "sha1": "dc4481d39005968f1f2673d760af69b411eccc33", 
-            "patchfile": "Add-dummy-files.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272394 +0200", 
-            "tree": "af52702a859e84653bfab0a1e0f9253177772f28", 
-            "parents": [
-                "0579e0753b78476ad822c54b6ea07e2e80c0cdd2"
-            ], 
-            "message": "Add dummy files\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551003 +0200", 
-            "sha1": "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35", 
-            "patchfile": "Add-packaging-files.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806552 +0200", 
-            "tree": "321aba18b5f072ecab528e2b004cdd4396b8c780", 
-            "parents": [
-                "b7b009c4f87828ad51e26c5c62b91b7c5f83cfff"
-            ], 
-            "message": "Add packaging files\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "2a17b0d682aa73f10a6e242e0f60408b61812047": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551076 +0200", 
-            "sha1": "2a17b0d682aa73f10a6e242e0f60408b61812047", 
-            "patchfile": "Remove-imported-patches.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352807855 +0200", 
-            "tree": "771f74c3339e47cf7ad767bd39a27eec4aba4df0", 
-            "parents": [
-                "9ff4f5f6853622a95489d2d575c63eceedc203f8"
-            ], 
-            "message": "Remove imported patches\n\nAnd enable automatic patch-generation.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
-        }, 
-        "80d0f75635f6ac35f080736236836aac1e596845": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551035 +0200", 
-            "sha1": "80d0f75635f6ac35f080736236836aac1e596845", 
-            "patchfile": "packaging-add-alternative-spec-file-and-change-patch-p.patch", 
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1357733987 +0200", 
-            "tree": "41d5ec4dfb4b4be0d0552d50f34f5045d4512a46", 
-            "parents": [
-                "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35"
-            ], 
-            "message": "packaging: add alternative spec file and change patch path\n\nAdd a second spec file for testing import-srpm spec guessing.\n\nChange one patch filename to be full url for testing import-srpm patch\nimport functionality.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272349 +0200", 
+            "message": "Repository initialization\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "patchfile": "Repository-initialization.patch", 
+            "sha1": "0579e0753b78476ad822c54b6ea07e2e80c0cdd2", 
+            "tree": "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
         }, 
         "189b0a152a6f1405e021c2988755ce2f5d89c998": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551036 +0200", 
-            "sha1": "189b0a152a6f1405e021c2988755ce2f5d89c998", 
-            "patchfile": "packaging-change-my2.patch-to-git-email-format.patch", 
             "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1358253459 +0200", 
-            "tree": "8bec5b20caa318012584b1e90942949704248a13", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551036 +0200", 
+            "message": "packaging: change my2.patch to git email format\n\nChange my2.patch from plain diff to git email format to test author and\ndate parsing of gbp.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
             "parents": [
                 "db72a4efae2b72b56f7723df844d7a506e549ce1"
             ], 
-            "message": "packaging: change my2.patch to git email format\n\nChange my2.patch from plain diff to git email format to test author and\ndate parsing of gbp.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
+            "patchfile": "packaging-change-my2.patch-to-git-email-format.patch", 
+            "sha1": "189b0a152a6f1405e021c2988755ce2f5d89c998", 
+            "tree": "8bec5b20caa318012584b1e90942949704248a13"
+        }, 
+        "2a17b0d682aa73f10a6e242e0f60408b61812047": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352807855 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551076 +0200", 
+            "message": "Remove imported patches\n\nAnd enable automatic patch-generation.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "9ff4f5f6853622a95489d2d575c63eceedc203f8"
+            ], 
+            "patchfile": "Remove-imported-patches.patch", 
+            "sha1": "2a17b0d682aa73f10a6e242e0f60408b61812047", 
+            "tree": "771f74c3339e47cf7ad767bd39a27eec4aba4df0"
+        }, 
+        "6dccee0ab7689e5ae446d39535138ea39a88e70c": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272405 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806279 +0200", 
+            "message": "Add dummy Makefile\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "dc4481d39005968f1f2673d760af69b411eccc33"
+            ], 
+            "patchfile": "Add-dummy-Makefile.patch", 
+            "sha1": "6dccee0ab7689e5ae446d39535138ea39a88e70c", 
+            "tree": "afdd4586454b4648d29a606ebf6be9c52708332f"
         }, 
         "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1405419767 +0300", 
-            "sha1": "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f", 
-            "patchfile": "pristine-tar-data-for-gbp-test2-2.0.tar.gz.patch", 
             "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1405419767 +0300", 
-            "tree": "aa56ec00b2a895dc32612e9717b525725c40e4a9", 
-            "message": "pristine-tar data for gbp-test2-2.0.tar.gz"
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1405419767 +0300", 
+            "message": "pristine-tar data for gbp-test2-2.0.tar.gz", 
+            "patchfile": "pristine-tar-data-for-gbp-test2-2.0.tar.gz.patch", 
+            "sha1": "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f", 
+            "tree": "aa56ec00b2a895dc32612e9717b525725c40e4a9"
+        }, 
+        "80d0f75635f6ac35f080736236836aac1e596845": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1357733987 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551035 +0200", 
+            "message": "packaging: add alternative spec file and change patch path\n\nAdd a second spec file for testing import-srpm spec guessing.\n\nChange one patch filename to be full url for testing import-srpm patch\nimport functionality.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35"
+            ], 
+            "patchfile": "packaging-add-alternative-spec-file-and-change-patch-p.patch", 
+            "sha1": "80d0f75635f6ac35f080736236836aac1e596845", 
+            "tree": "41d5ec4dfb4b4be0d0552d50f34f5045d4512a46"
+        }, 
+        "9ff4f5f6853622a95489d2d575c63eceedc203f8": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352807746 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551036 +0200", 
+            "message": "My addition\n\nImport my2.patch to the git tree.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "189b0a152a6f1405e021c2988755ce2f5d89c998"
+            ], 
+            "patchfile": "My-addition.patch", 
+            "sha1": "9ff4f5f6853622a95489d2d575c63eceedc203f8", 
+            "tree": "472db0daae817c14f1cb74608e1d234758301da0"
+        }, 
+        "a93779ad111470b1619f2ceb7a31dd10d6ad6a4f": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1386843313 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551387 +0200", 
+            "message": "Update .gbp.conf\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "189b0a152a6f1405e021c2988755ce2f5d89c998"
+            ], 
+            "patchfile": "Update-.gbp.conf.patch", 
+            "sha1": "a93779ad111470b1619f2ceb7a31dd10d6ad6a4f", 
+            "tree": "e92ab121d622ee866dffd560ce2dcd561223719b"
         }, 
         "b7b009c4f87828ad51e26c5c62b91b7c5f83cfff": {
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551002 +0200", 
-            "sha1": "b7b009c4f87828ad51e26c5c62b91b7c5f83cfff", 
-            "patchfile": "Add-gbp.conf.patch", 
             "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806630 +0200", 
-            "tree": "7a64093756c1668d9d2888473baf9fd4d44ba11b", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551002 +0200", 
+            "message": "Add gbp.conf\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
             "parents": [
                 "6dccee0ab7689e5ae446d39535138ea39a88e70c"
             ], 
-            "message": "Add gbp.conf\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>"
+            "patchfile": "Add-gbp.conf.patch", 
+            "sha1": "b7b009c4f87828ad51e26c5c62b91b7c5f83cfff", 
+            "tree": "7a64093756c1668d9d2888473baf9fd4d44ba11b"
+        }, 
+        "db72a4efae2b72b56f7723df844d7a506e549ce1": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1357897260 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551036 +0200", 
+            "message": "packaging: reflect the corrected patch number handling\n\nFix spec files as GBP now treats 'Patch:' as patch number -1, instead of\n0.\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "80d0f75635f6ac35f080736236836aac1e596845"
+            ], 
+            "patchfile": "packaging-reflect-the-corrected-patch-number-handling.patch", 
+            "sha1": "db72a4efae2b72b56f7723df844d7a506e549ce1", 
+            "tree": "cc668ba4e00ae7308e6a9f1b2225a820e50f618f"
+        }, 
+        "dc4481d39005968f1f2673d760af69b411eccc33": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352272394 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806277 +0200", 
+            "message": "Add dummy files\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "0579e0753b78476ad822c54b6ea07e2e80c0cdd2"
+            ], 
+            "patchfile": "Add-dummy-files.patch", 
+            "sha1": "dc4481d39005968f1f2673d760af69b411eccc33", 
+            "tree": "af52702a859e84653bfab0a1e0f9253177772f28"
+        }, 
+        "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806552 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551003 +0200", 
+            "message": "Add packaging files\n\nSigned-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>", 
+            "parents": [
+                "b7b009c4f87828ad51e26c5c62b91b7c5f83cfff"
+            ], 
+            "patchfile": "Add-packaging-files.patch", 
+            "sha1": "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35", 
+            "tree": "321aba18b5f072ecab528e2b004cdd4396b8c780"
         }
     }, 
     "refs": {
-        "refs/heads/pristine-tar": "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f", 
-        "refs/tags/release/1%2.0-1": "d586d2c9384b2536bc1db0a6940578533ff9d122", 
-        "refs/tags/release/1%2.0-0": "3ee597fee679b6138467ac62e4f857ef5b59b240", 
-        "refs/tags/upstream/2.0": "c5da8dd1e15c6845f9f7e176a1c5208b5157da14", 
+        "refs/heads/master": "2a17b0d682aa73f10a6e242e0f60408b61812047", 
         "refs/heads/master-orphan": "a93779ad111470b1619f2ceb7a31dd10d6ad6a4f", 
+        "refs/heads/pristine-tar": "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f", 
         "refs/heads/upstream": "6dccee0ab7689e5ae446d39535138ea39a88e70c", 
-        "refs/heads/master": "2a17b0d682aa73f10a6e242e0f60408b61812047"
+        "refs/tags/release/1%2.0-0": "3ee597fee679b6138467ac62e4f857ef5b59b240", 
+        "refs/tags/release/1%2.0-1": "d586d2c9384b2536bc1db0a6940578533ff9d122", 
+        "refs/tags/upstream/2.0": "c5da8dd1e15c6845f9f7e176a1c5208b5157da14"
     }, 
-    "HEAD": "ref: refs/heads/master\n", 
     "tags": {
-        "d586d2c9384b2536bc1db0a6940578533ff9d122": {
-            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551738 +0200", 
-            "message": "Test-Distro release 1:2.0-1", 
-            "tag": "release/1%2.0-1", 
-            "type": "commit", 
-            "object": "2a17b0d682aa73f10a6e242e0f60408b61812047"
-        }, 
         "3ee597fee679b6138467ac62e4f857ef5b59b240": {
-            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551734 +0200", 
             "message": "Test-Distro release 1:2.0-0", 
+            "object": "189b0a152a6f1405e021c2988755ce2f5d89c998", 
             "tag": "release/1%2.0-0", 
-            "type": "commit", 
-            "object": "189b0a152a6f1405e021c2988755ce2f5d89c998"
+            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551734 +0200", 
+            "type": "commit"
         }, 
         "c5da8dd1e15c6845f9f7e176a1c5208b5157da14": {
-            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1377529719 +0300", 
             "message": "Version 2.0", 
+            "object": "6dccee0ab7689e5ae446d39535138ea39a88e70c", 
             "tag": "upstream/2.0", 
-            "type": "commit", 
-            "object": "6dccee0ab7689e5ae446d39535138ea39a88e70c"
+            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1377529719 +0300", 
+            "type": "commit"
+        }, 
+        "d586d2c9384b2536bc1db0a6940578533ff9d122": {
+            "message": "Test-Distro release 1:2.0-1", 
+            "object": "2a17b0d682aa73f10a6e242e0f60408b61812047", 
+            "tag": "release/1%2.0-1", 
+            "tagger": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551738 +0200", 
+            "type": "commit"
         }
     }
 }

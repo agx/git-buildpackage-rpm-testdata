@@ -8,12 +8,6 @@ Change one patch filename to be full url for testing import-srpm patch
 import functionality.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- .gbp.conf                    |  1 +
- packaging/gbp-test2-alt.spec | 48 ++++++++++++++++++++++++++++++++++++++++++++
- packaging/gbp-test2.spec     |  3 ++-
- 3 files changed, 51 insertions(+), 1 deletion(-)
- create mode 100644 packaging/gbp-test2-alt.spec
 
 diff --git a/.gbp.conf b/.gbp.conf
 index 3d5f92d..6c8e847 100644
@@ -95,6 +89,3 @@ index 61aae33..eec5d26 100644
  Patch20:    my3.patch
  Packager:   Markus Lehtonen <markus.lehtonen@linux.intel.com>
  
--- 
-2.1.4
-

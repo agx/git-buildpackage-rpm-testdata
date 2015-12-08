@@ -3,12 +3,6 @@ Date: Thu, 8 Nov 2012 14:33:51 +0200
 Subject: [PATCH] Add packaging files
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- foo.txt               |  3 +++
- gbp-test-native2.spec | 35 +++++++++++++++++++++++++++++++++++
- 2 files changed, 38 insertions(+)
- create mode 100644 foo.txt
- create mode 100644 gbp-test-native2.spec
 
 diff --git a/foo.txt b/foo.txt
 new file mode 100644
@@ -60,6 +54,3 @@ index 0000000..34fd33d
 +%defattr(-,root,root,-)
 +%dir %{_datadir}/%{name}
 +%{_datadir}/%{name}
--- 
-2.1.4
-

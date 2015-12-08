@@ -3,9 +3,6 @@ Date: Wed, 7 Nov 2012 09:15:41 +0200
 Subject: [PATCH] Modify README
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- README | 2 ++
- 1 file changed, 2 insertions(+)
 
 diff --git a/README b/README
 index a1311cb..17b5e09 100644
@@ -15,6 +12,3 @@ index a1311cb..17b5e09 100644
  Just for testing git-buildpackage.
 +
 +Version 1.1
--- 
-2.1.4
-

@@ -3,10 +3,6 @@ Date: Tue, 13 Nov 2012 13:37:10 +0200
 Subject: [PATCH] Add gbp.conf
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- .gbp.conf | 10 ++++++++++
- 1 file changed, 10 insertions(+)
- create mode 100644 .gbp.conf
 
 diff --git a/.gbp.conf b/.gbp.conf
 new file mode 100644
@@ -24,6 +20,3 @@ index 0000000..3d5f92d
 +packaging-dir = packaging
 +patch-ignore-path = ^(packaging/.*|\.gbp.conf)
 +
--- 
-2.1.4
-

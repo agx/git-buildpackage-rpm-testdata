@@ -5,10 +5,6 @@ Subject: [PATCH] Add .gitignore
 Ignore '*.tmp' and '*.swp'.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- .gitignore | 2 ++
- 1 file changed, 2 insertions(+)
- create mode 100644 .gitignore
 
 diff --git a/.gitignore b/.gitignore
 new file mode 100644
@@ -18,6 +14,3 @@ index 0000000..c9b0245
 @@ -0,0 +1,2 @@
 +*.tmp
 +*.swp
--- 
-2.1.4
-

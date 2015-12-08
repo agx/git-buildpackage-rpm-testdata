@@ -5,13 +5,6 @@ Subject: [PATCH] Add compressed patches
 New release. Adds patches compressed with gzip and bzip2.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- gbp-test.spec      |   6 +++++-
- my-bzip2.patch.bz2 | Bin 0 -> 137 bytes
- my-gz.patch.gz     | Bin 0 -> 166 bytes
- 3 files changed, 5 insertions(+), 1 deletion(-)
- create mode 100644 my-bzip2.patch.bz2
- create mode 100644 my-gz.patch.gz
 
 diff --git a/gbp-test.spec b/gbp-test.spec
 index 0898d72..0a8fecc 100644
@@ -68,7 +61,4 @@ UBWFsw>Dq;O0eO1I8K?jN069iY*Z=?k
 
 literal 0
 HcmV?d00001
-
--- 
-2.1.4
 

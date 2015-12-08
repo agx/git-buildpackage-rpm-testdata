@@ -3,9 +3,6 @@ Date: Thu, 8 Nov 2012 19:37:36 +0200
 Subject: [PATCH] Version bump to 1.1
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- gbp-test.spec | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/gbp-test.spec b/gbp-test.spec
 index c46a734..0898d72 100644
@@ -19,6 +16,3 @@ index c46a734..0898d72 100644
  Release:    1
  Group:      Development/Libraries
  License:    GPLv2
--- 
-2.1.4
-

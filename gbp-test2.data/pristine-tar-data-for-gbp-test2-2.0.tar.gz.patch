@@ -2,12 +2,6 @@ From: Markus Lehtonen <markus.lehtonen@linux.intel.com>
 Date: Tue, 15 Jul 2014 13:22:47 +0300
 Subject: [PATCH] pristine-tar data for gbp-test2-2.0.tar.gz
 
----
- gbp-test2-2.0.tar.gz.delta | Bin 0 -> 1302 bytes
- gbp-test2-2.0.tar.gz.id    |   1 +
- 2 files changed, 1 insertion(+)
- create mode 100644 gbp-test2-2.0.tar.gz.delta
- create mode 100644 gbp-test2-2.0.tar.gz.id
 
 diff --git a/gbp-test2-2.0.tar.gz.delta b/gbp-test2-2.0.tar.gz.delta
 new file mode 100644
@@ -51,6 +45,3 @@ index 0000000..340feea
 +++ b/gbp-test2-2.0.tar.gz.id
 @@ -0,0 +1 @@
 +afdd4586454b4648d29a606ebf6be9c52708332f
--- 
-2.1.4
-

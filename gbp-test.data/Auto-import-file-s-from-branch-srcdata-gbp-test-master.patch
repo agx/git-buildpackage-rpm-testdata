@@ -5,10 +5,6 @@ Subject: [PATCH] Auto-import file(s) from branch 'srcdata/gbp-test/master':
 
 Gbp: Ignore
 Gbp-Rpm: Ignore
----
- .gbp.conf | 7 +++++++
- 1 file changed, 7 insertions(+)
- create mode 100644 .gbp.conf
 
 diff --git a/.gbp.conf b/.gbp.conf
 new file mode 100644
@@ -23,6 +19,3 @@ index 0000000..598b658
 +upstream-branch = upstream
 +upstream-tag = upstream/%(upstreamversion)s
 +packaging-tag-msg = %(vendor)s release %(version)s
--- 
-2.1.4
-

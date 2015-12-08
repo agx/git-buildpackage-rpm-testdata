@@ -3,10 +3,6 @@ Date: Wed, 7 Nov 2012 09:13:25 +0200
 Subject: [PATCH] Add dummy Makefile
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- Makefile | 2 ++
- 1 file changed, 2 insertions(+)
- create mode 100644 Makefile
 
 diff --git a/Makefile b/Makefile
 new file mode 100644
@@ -16,6 +12,3 @@ index 0000000..ecbc49e
 @@ -0,0 +1,2 @@
 +all:
 +	@echo "Ready!"
--- 
-2.1.4
-

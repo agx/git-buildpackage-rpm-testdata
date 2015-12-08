@@ -3,12 +3,6 @@ Date: Wed, 7 Nov 2012 09:13:14 +0200
 Subject: [PATCH] Add dummy files
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- README   | 2 ++
- dummy.sh | 3 +++
- 2 files changed, 5 insertions(+)
- create mode 100644 README
- create mode 100755 dummy.sh
 
 diff --git a/README b/README
 new file mode 100644
@@ -27,6 +21,3 @@ index 0000000..7eeb298
 +#!/bin/sh
 +
 +echo "Hello world 2.0"
--- 
-2.1.4
-

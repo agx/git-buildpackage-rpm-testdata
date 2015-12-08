@@ -2,10 +2,6 @@ From: Markus Lehtonen <markus.lehtonen@linux.intel.com>
 Date: Thu, 17 Jul 2014 11:27:27 +0300
 Subject: [PATCH] my-bzip2
 
----
- NEWS | 1 +
- 1 file changed, 1 insertion(+)
- create mode 100644 NEWS
 
 diff --git a/NEWS b/NEWS
 new file mode 100644
@@ -14,6 +10,3 @@ index 0000000..e2620b0
 +++ b/NEWS
 @@ -0,0 +1 @@
 +No news.
--- 
-2.1.4
-

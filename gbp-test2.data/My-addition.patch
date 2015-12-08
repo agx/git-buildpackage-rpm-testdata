@@ -5,10 +5,6 @@ Subject: [PATCH] My addition
 Import my2.patch to the git tree.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- mydir/myfile.txt | 1 +
- 1 file changed, 1 insertion(+)
- create mode 100644 mydir/myfile.txt
 
 diff --git a/mydir/myfile.txt b/mydir/myfile.txt
 new file mode 100644
@@ -17,6 +13,3 @@ index 0000000..2cdad29
 +++ b/mydir/myfile.txt
 @@ -0,0 +1 @@
 +Dummy
--- 
-2.1.4
-

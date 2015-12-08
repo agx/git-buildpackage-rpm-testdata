@@ -3,20 +3,6 @@ Date: Thu, 8 Nov 2012 19:12:21 +0200
 Subject: [PATCH] Add initial packaging files
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- bar.tar.gz    | Bin 0 -> 177 bytes
- foo.txt       |   3 +++
- gbp-test.spec |  42 ++++++++++++++++++++++++++++++++++++++++++
- my.patch      |   9 +++++++++
- my2.patch     |   7 +++++++
- my3.patch     |   7 +++++++
- 6 files changed, 68 insertions(+)
- create mode 100644 bar.tar.gz
- create mode 100644 foo.txt
- create mode 100644 gbp-test.spec
- create mode 100644 my.patch
- create mode 100644 my2.patch
- create mode 100644 my3.patch
 
 diff --git a/bar.tar.gz b/bar.tar.gz
 new file mode 100644
@@ -129,6 +115,3 @@ index 0000000..9fee859
 +@@ -1 +1 @@
 +-Just for testing git-buildpackage.
 ++Just for testing GBP.
--- 
-2.1.4
-

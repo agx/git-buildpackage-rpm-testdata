@@ -3,20 +3,6 @@ Date: Tue, 13 Nov 2012 13:35:52 +0200
 Subject: [PATCH] Add packaging files
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- packaging/bar.tar.gz     | Bin 0 -> 177 bytes
- packaging/foo.txt        |   3 +++
- packaging/gbp-test2.spec |  48 +++++++++++++++++++++++++++++++++++++++++++++++
- packaging/my.patch       |   9 +++++++++
- packaging/my2.patch      |   7 +++++++
- packaging/my3.patch      |   7 +++++++
- 6 files changed, 74 insertions(+)
- create mode 100644 packaging/bar.tar.gz
- create mode 100644 packaging/foo.txt
- create mode 100644 packaging/gbp-test2.spec
- create mode 100644 packaging/my.patch
- create mode 100644 packaging/my2.patch
- create mode 100644 packaging/my3.patch
 
 diff --git a/packaging/bar.tar.gz b/packaging/bar.tar.gz
 new file mode 100644
@@ -135,6 +121,3 @@ index 0000000..9fee859
 +@@ -1 +1 @@
 +-Just for testing git-buildpackage.
 ++Just for testing GBP.
--- 
-2.1.4
-

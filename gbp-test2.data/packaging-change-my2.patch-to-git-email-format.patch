@@ -6,9 +6,6 @@ Change my2.patch from plain diff to git email format to test author and
 date parsing of gbp.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- packaging/my2.patch | 9 +++++++++
- 1 file changed, 9 insertions(+)
 
 diff --git a/packaging/my2.patch b/packaging/my2.patch
 index ad5ca2d..5554d9c 100644
@@ -27,6 +24,3 @@ index ad5ca2d..5554d9c 100644
  diff --git a/mydir/myfile.txt b/mydir/myfile.txt
  new file mode 100644
  index 0000000..2cdad29
--- 
-2.1.4
-

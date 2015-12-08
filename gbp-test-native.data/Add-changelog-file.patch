@@ -5,10 +5,6 @@ Subject: [PATCH] Add changelog file
 Add an "OBS-style" separate changelog file.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- packaging/gbp-test-native.changes | 3 +++
- 1 file changed, 3 insertions(+)
- create mode 100644 packaging/gbp-test-native.changes
 
 diff --git a/packaging/gbp-test-native.changes b/packaging/gbp-test-native.changes
 new file mode 100644
@@ -19,6 +15,3 @@ index 0000000..e9886a4
 +* Tue Feb 25 2014 Markus Lehtonen <markus.lehtonen@linux.intel.com> 1.0-1
 +- Initial packaging
 +
--- 
-2.1.4
-

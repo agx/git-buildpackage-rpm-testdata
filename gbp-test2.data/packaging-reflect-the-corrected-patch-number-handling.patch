@@ -6,10 +6,6 @@ Fix spec files as GBP now treats 'Patch:' as patch number -1, instead of
 0.
 
 Signed-off-by: Markus Lehtonen <markus.lehtonen@linux.intel.com>
----
- packaging/gbp-test2-alt.spec | 2 +-
- packaging/gbp-test2.spec     | 2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/packaging/gbp-test2-alt.spec b/packaging/gbp-test2-alt.spec
 index 155ea43..be5d8bc 100644
@@ -37,6 +33,3 @@ index eec5d26..5b41aae 100644
  Patch:      my.patch
  Patch10:    http://example.com/patches/my2.patch
  Patch20:    my3.patch
--- 
-2.1.4
-
