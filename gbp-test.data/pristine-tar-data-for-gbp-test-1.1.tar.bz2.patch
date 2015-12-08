@@ -1,37 +1,30 @@
 From: Markus Lehtonen <markus.lehtonen@linux.intel.com>
-Date: Tue, 15 Jul 2014 13:19:04 +0300
+Date: Tue, 8 Dec 2015 19:28:27 +0200
 Subject: [PATCH] pristine-tar data for gbp-test-1.1.tar.bz2
 
 
 diff --git a/gbp-test-1.1.tar.bz2.delta b/gbp-test-1.1.tar.bz2.delta
 new file mode 100644
-index 0000000000000000000000000000000000000000..f142beddaf21b582fea8eb837b22aea886209c28
+index 0000000000000000000000000000000000000000..3e4f0bf6ec4c81895ae8dbdcd0dbe8684b0778be
 GIT binary patch
-literal 1236
-zcmV;_1S|U=iwFQ10L4=P1MQiAY!hV|$KUH_hJ!$f!W!9JBW`X)*ZX~|1O~}4Vp3Qb
-z1Qp_PyWX~L?ONLFHXyEDjLr#y0-~~jl7Pm*P{!i2#0+CH0q4e+88w=zlT5}R0|E;y
-znd5w0og2NfnRzK0JfF0^_wIT7zIXTb`+lE$n`OxptDcobyX^I43E4Dhsq~5-kL*SI
-zL1K884R0}#TasdEM9~aS(Rhc!$0>%Rcx0~9@f_}m-=~OPd@BF9oyd!uAuy!br8r#j
-zGKwWRma=jzo5j&q*2)Q_kcgw=q)|x|Wmp{LtW4tFzB1sypugI+Owd0iaDPjL8lMkH
-zj^ZNq&u}a<$3#S9`ge)mEq=$gN$TMla*}ptsQy!T%t9vAmXG2F-|JoT3Tb-HdSgjN
-z9Nl`OZ0X#J%ZHo0GO6U>-lCY6ZA;(m?%HW}mhNvozq)4k&=Y<AtLrUS2K!Dl?%vSc
-z-topz<KX9O54svX56|uRv-|0<T`Rw`KYk>=ul&gNHS6B)Tv!|QWuL45;pa|U|EHrn
-zlPc3*_jV8Y^Bd}Bx2<3D$L6{P?|yT3(Z;6yw%WaI>PriU)B1WYUtg@+zbnoi7zuce
-z@49X|+8)?ve7XPh$=>$XN7H}t1<ux0pJ3Jc!{rbBe&ETLi|WS84ek%(c2Q^4J$<U_
-zOV#nv^1<a7N6#Np-wCRc`I<qrnSNCp{3A7=SVjwrh6|n})HCST+WM=Go7O7<YiG{M
-z8ddUadhA%{g^|;NvSXh~-(FSmvBgOJ*f!iWvbj}FI<Vzd>Z={Wo<QgZ2KQAZ^fV=R
-zp^Updl+z+h<NtQqsffDvF%AExXaW2`7DV-bhQS`rQ+#y)XXsFrv4a2K1L&`IEmQbE
-zMdM`ucKy==5B?t$(w@(KktEr)@XkCmJ2LK-C9f<hGQLTLqSNX2I*R`(dc>-NVy7Dy
-z3rfQN5guj?iwBcrc|0f342MEP%~1?09=p+Aw_6FlIod3_T`sv?S;n&*nQbLSktFFt
-zGMmrl7(tdfQj#c97AZj}vP+Vcr4j{!i)fqXNfvRDZSypzISHDj5UHuilaUn}79Z18
-z#62^-woQT4R>e6%976Fwrf;&TDFfF^lUknX|A<^sAIu{Rb22=lB9)l!q9SH?Bp83%
-zzN7kuqo*2D+It`T{(S>M%!|0;H~p>0_wK*6V*Z6%!>QCSa)NmX<sdYlFy<qaK$Ja#
-zkclv^CyYjf<`BkY+%f(n&Ka5sgxGLo;wytdB?!e4Whn?Pi2A(`4G0lL>7qNgO9W?K
-zil4fYaUee2(<Em|1WiG#6e9n&Um*}fwE15JE;-!gI`%Q0^&gsn{4W+n&;Q19xaj%c
-zgec^HGaUWZu4StAAME<t^&b-QzgR$nPVZ~9{_hgY9YwNF(XWqb_<yK6_<szD?*9{3
-zc%t|}6^imS`2RhC{%Y4UrT+_&>p$53Vf`m26c>7)Qt<d&68|mP#4@?a;grXZtXs7*
-z*S2bW-|lz0wr2TCK;ttWt^X@qJ+i)iOvC^2L;?OE3*h<x{ziYbYnl4_pN;(ghi7^4
-y|5$)89+V0I0000000000000000000000000000000000pjK2Wb6&w2iPyhfnh<RE7
+literal 851
+zcmV-Z1FZZXiwFQa6K7Tc1MQbvY)nBI$G_<%SY=m4TvlT}phVl5b6ue>>5{k<acSJ5
+zneLvww7cDP_SEe`PXwVV^&*i72@z2bBqHbw4@81g%Y#a#RZ&S1ks_`eoNil}Z8#Fy
+zHke<|WoFKN`G04=`OeG<(XxP7iE5BUuz@59op&OO`1^YovIK;acp?!Z$UI=ei4q0}
+zPNq{mlt(qHIvfz9>W1>b)}Qt>d;XW=D~@DqM*MRvUrPnFRPhFa%D0wfbLY4U=6<Vt
+z%0r<oIZ?l*zrAPtDIO)L(Ijh_<Uiphl9>NkAT0m;f(ff!YcLij#4A=9ocLT-+^Rw~
+z#TcYw8VrWjfUmn4p__|*!LU&*@+;J%sPQlx2+$cnNx&k<i$;)%AQB#Y@qsp~YB;QQ
+zp54*!nFS)}aEC)7rA*6{1Q9!@VM;OPim_92ioC2SB6hn8RVa~VugC44CJ>7(iwRPk
+zgar^yq$E!4<sxTHIBaHTEJ_J>ykNAM*%@x~Qg20BG_?fKQvuRfO<Y^>IkWv`$;jGy
+zk5Ay)hxDZ=B_k_BHMig4p&Ffhpz_6_%+(JZzQq&m_9DxWwiJY{39-w)<vdBGDl4DS
+z3bh~W{rXaX1pvd4Z8^XIR5}J=6tb;AHXA?&vW*2ui(jqr#uWfUSK+%O3xOXX6_sWJ
+zjQE8u($fL}2$k4>t%3A`Ptty`qpdwHu598p(nsmWFrp(rOms#M8x=Jg2$v;Q!*u_L
+zxy0|kk&o>A-xqLf5BFcQNu`m9q9#?tEdP1j>;F&SB$oeu!MMExVft`iA*4QUoHKMg
+zw(Wd)Ixl@>!@2zI4(EQ`m6V$Fg0|Pi8Wnb3%yPZITsO7J<9&6arapiDg(*|=B6nL(
+zT|fV!cINRLyBF@`uX$_k%yTU}(0<X~e7GscI{(<y8Dp2M{M^xU?|t=}7lqMkee~g*
+z4TW{%OR76!_ZwqtH?&n)&fcD?r$5WNRMq_GW9-nP9kC@x+jqut4_fQCy+f|&<VeNa
+zH=pb;XYDz5W`_N%=dBg%(A7zcD<P{NhwraP+Y(Wdtzo|Y3kms8WR7F`-xnA!&vpO|
+d27|$1Fc=I5gTY`h7!1Zg$`@fSxsL!S000iQobdnv
 
 literal 0
 HcmV?d00001

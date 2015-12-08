@@ -42,14 +42,6 @@
             "sha1": "6dccee0ab7689e5ae446d39535138ea39a88e70c", 
             "tree": "afdd4586454b4648d29a606ebf6be9c52708332f"
         }, 
-        "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f": {
-            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1405419767 +0300", 
-            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1405419767 +0300", 
-            "message": "pristine-tar data for gbp-test2-2.0.tar.gz", 
-            "patchfile": "pristine-tar-data-for-gbp-test2-2.0.tar.gz.patch", 
-            "sha1": "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f", 
-            "tree": "aa56ec00b2a895dc32612e9717b525725c40e4a9"
-        }, 
         "80d0f75635f6ac35f080736236836aac1e596845": {
             "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1357733987 +0200", 
             "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551035 +0200", 
@@ -116,6 +108,14 @@
             "sha1": "dc4481d39005968f1f2673d760af69b411eccc33", 
             "tree": "af52702a859e84653bfab0a1e0f9253177772f28"
         }, 
+        "f89f9c7f4662c16559e6b76771a6f6689d48e2ad": {
+            "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1449597175 +0200", 
+            "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1449597175 +0200", 
+            "message": "pristine-tar data for gbp-test2-2.0.tar.gz", 
+            "patchfile": "pristine-tar-data-for-gbp-test2-2.0.tar.gz.patch", 
+            "sha1": "f89f9c7f4662c16559e6b76771a6f6689d48e2ad", 
+            "tree": "29de04114bb7e206a81405bd95bb989fba0bce61"
+        }, 
         "fb1bf5f16bfa1a4e3ffd29fcc0820bd60fbd1a35": {
             "author": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1352806552 +0200", 
             "committer": "Markus Lehtonen <markus.lehtonen@linux.intel.com> 1448551003 +0200", 
@@ -131,7 +131,7 @@
     "refs": {
         "refs/heads/master": "2a17b0d682aa73f10a6e242e0f60408b61812047", 
         "refs/heads/master-orphan": "a93779ad111470b1619f2ceb7a31dd10d6ad6a4f", 
-        "refs/heads/pristine-tar": "75e1ee1d3c0b920491cb9fc827be6de8cd9f0d9f", 
+        "refs/heads/pristine-tar": "f89f9c7f4662c16559e6b76771a6f6689d48e2ad", 
         "refs/heads/upstream": "6dccee0ab7689e5ae446d39535138ea39a88e70c", 
         "refs/tags/release/1%2.0-0": "3ee597fee679b6138467ac62e4f857ef5b59b240", 
         "refs/tags/release/1%2.0-1": "d586d2c9384b2536bc1db0a6940578533ff9d122", 
