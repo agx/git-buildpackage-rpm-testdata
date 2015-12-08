@@ -91,7 +91,8 @@ def git_cat_file(treeish):
 
 def git_write_patch(treeish, outfile):
     """Write patch with user-defined filename"""
-    cmd = ['git', 'format-patch', '-1', '--stdout', treeish]
+    cmd = ['git', 'format-patch', '-1', '--stdout', '--no-stat',
+           '--no-signature', treeish]
     LOG.debug("Running command: '%s'", ' '.join(cmd))
     with open(outfile, 'w') as fobj:
         # Skip the first line of the patch that contains the commit sha1
