@@ -293,7 +293,7 @@ def commit_patch(commit, patchfile):
         tree = git_cmd('write-tree', None, True, None, env)[0]
         assert tree == commit['tree']
     sha1 = commit_tree(commit)
-    git_cmd('reset', ['--hard'], True)
+    git_cmd('checkout', [sha1], True)
     return sha1
 
 
