@@ -249,7 +249,7 @@ def write_repo_data(outfile, **kwargs):
     #data = {'refs': refs, 'tags': tags, 'commits': commits}
     data = kwargs
     with open(outfile, 'w') as fobj:
-        json.dump(data, fobj, indent=4)
+        json.dump(data, fobj, indent=4, sort_keys=True)
 
 
 def split_git_author(author):
